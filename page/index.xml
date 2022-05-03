@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on NLDXTD</title>
+        <link>https://nldxtd.github.io/page/</link>
+        <description>Recent content in Pages on NLDXTD</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Wed, 21 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://nldxtd.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>About</title>
+        <link>https://nldxtd.github.io/about/</link>
+        <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://nldxtd.github.io/about/</guid>
+        <description>&lt;p&gt;Welcome to anyone who come here for any reason. I&amp;rsquo;m pleased to introduce myself and the origin intention of building this website.&lt;/p&gt;
+&lt;h2 id=&#34;about-me&#34;&gt;About Me&lt;/h2&gt;
+&lt;p&gt;I was born in 2002, and is an undergraduate at Tsinghua University the moment I type this line. I hold the belief that we were born to find the truth and stick to our faith. The subject I major in is CS, and I&amp;rsquo;m also interested in politics, economics, music, game and traveling.&lt;/p&gt;
+&lt;h2 id=&#34;about-this-website&#34;&gt;About this website&lt;/h2&gt;
+&lt;p&gt;There are two main reasons for this website.&lt;/p&gt;
+&lt;p&gt;The first is to witness the process of my growing up. We all gonna die one day, this website is for leave a bit record of my thinking and my life.&lt;/p&gt;
+&lt;p&gt;The second is for communicating, we live in a time where the Internet is so convenient, but not so free to some aspects, but thanks to the skills I&amp;rsquo;m owning and the education I&amp;rsquo;m getting either passively or proactively, I am able to carve out a space on the Internet for free communication. This is important because we are all limited in our own lives, only communication remove the obstacles.&lt;/p&gt;
+&lt;p&gt;You can contact me by &lt;a class=&#34;link&#34; href=&#34;mailto:nldxtd@gmail.com&#34; &gt;nldxtd&lt;/a&gt; :)&lt;/p&gt;
+&lt;h2 id=&#34;what-im-doing&#34;&gt;What I&amp;rsquo;m doing&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;keeping thinking 🤔&lt;/li&gt;
+&lt;li&gt;preparing for my further education 📖&lt;/li&gt;
+&lt;li&gt;improving my skills 😈&lt;/li&gt;
+&lt;li&gt;in love ❤️&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Archives</title>
+        <link>https://nldxtd.github.io/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://nldxtd.github.io/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Projects</title>
+        <link>https://nldxtd.github.io/projects/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://nldxtd.github.io/projects/</guid>
+        <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;This Page is for displaying the projects I have been taking part in during my coding career, you can find the repos through my github account &lt;a class=&#34;link&#34; href=&#34;https://github.com/nldxtd&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;nldxtd&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Those projects can be divided into two categories, one is course projects I &amp;rsquo;ve been working on in THU classes, the other is personal projects made out of personal interests or outsourcing demands.&lt;/p&gt;
+&lt;p&gt;Apart from those projects, algorithm is also important through my study, which won&amp;rsquo;t be displayed at this page.&lt;/p&gt;
+&lt;h2 id=&#34;course-projects&#34;&gt;Course Projects&lt;/h2&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h3 id=&#34;logo-language-compiler&#34;&gt;LOGO Language Compiler&lt;/h3&gt;
+&lt;p&gt;Summary: First project of my coding career, using C++ to compile LOGO file(text file defined ourselves) to picture format BMP.&lt;/p&gt;
+&lt;p&gt;Semester: Fall 2019.&lt;/p&gt;
+&lt;p&gt;Skills: C++, video editing.&lt;/p&gt;
+&lt;p&gt;Code Repo: &lt;a class=&#34;link&#34; href=&#34;https://github.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;LOGO compiler&lt;/a&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h3 id=&#34;snake-&#34;&gt;Snake 🐍&lt;/h3&gt;
+&lt;p&gt;Summary: Classic game snake(贪吃蛇) implemented in Qt.&lt;/p&gt;
+&lt;p&gt;Semester: Summer 2020.&lt;/p&gt;
+&lt;p&gt;Skills: Qt, C++.&lt;/p&gt;
+&lt;p&gt;Code Repo: &lt;a class=&#34;link&#34; href=&#34;https://github.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Snake&lt;/a&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h3 id=&#34;dou-dizhu-&#34;&gt;Dou Dizhu 🃏&lt;/h3&gt;
+&lt;p&gt;Summary: Classic game Dou Dizhu(斗地主) implemented in Qt.&lt;/p&gt;
+&lt;p&gt;Semester: Summer 2020.&lt;/p&gt;
+&lt;p&gt;Skills: Qt, Qt Socket, C++.&lt;/p&gt;
+&lt;p&gt;Code Repo: &lt;a class=&#34;link&#34; href=&#34;https://github.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Dou Dizhu&lt;/a&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h3 id=&#34;快红-快手公司合作软件工程项目&#34;&gt;快红 🍁(快手公司合作软件工程项目)&lt;/h3&gt;
+&lt;p&gt;Summary: Software Engineer project cowork with Beijing Kuaishou Technology Co., Ltd, using data provided by the company to do data visualization and give advice to content producer. As a team work, I mainly took part in frontend work.&lt;/p&gt;
+&lt;p&gt;Semester: Spring 2021.&lt;/p&gt;
+&lt;p&gt;Skills: Vue.js, python, django, database.&lt;/p&gt;
+&lt;p&gt;Code Repo: Private.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h3 id=&#34;router-lab&#34;&gt;Router-Lab&lt;/h3&gt;
+&lt;p&gt;Summary: PA of Network Principle, implement a router supporting ICMP, RIP, also do some correctness check.&lt;/p&gt;
+&lt;p&gt;Semester: Spring 2021.&lt;/p&gt;
+&lt;p&gt;Skills: C++, Network Protocol.&lt;/p&gt;
+&lt;p&gt;Code Repo: &lt;a class=&#34;link&#34; href=&#34;https://github.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Router-Lab&lt;/a&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h3 id=&#34;py-pinyin&#34;&gt;Py-PinYin&lt;/h3&gt;
+&lt;p&gt;Summary: A PinYin input method implemented in python base on Markov Chain.&lt;/p&gt;
+&lt;p&gt;Semester: Spring 2021.&lt;/p&gt;
+&lt;p&gt;Skills: Python, Markov Chain.&lt;/p&gt;
+&lt;p&gt;Code Repo: &lt;a class=&#34;link&#34; href=&#34;https://github.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Py-PinYin&lt;/a&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h3 id=&#34;fourchess-&#34;&gt;FourChess ♟&lt;/h3&gt;
+&lt;p&gt;Summary: Namely AI implement in python based on Monte Carlo tree search(MCTS).&lt;/p&gt;
+&lt;p&gt;Semester: Spring 2021.&lt;/p&gt;
+&lt;p&gt;Skills: C++, MCTS.&lt;/p&gt;
+&lt;p&gt;Code Repo: &lt;a class=&#34;link&#34; href=&#34;https://github.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;FourChess&lt;/a&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h3 id=&#34;sentence-emotion-classifier-&#34;&gt;Sentence Emotion Classifier 📖&lt;/h3&gt;
+&lt;p&gt;Summary: A classfy task using CNN/RNN/LSTM, result not so satisfying because of data problem.&lt;/p&gt;
+&lt;p&gt;Semester: Spring 2021.&lt;/p&gt;
+&lt;p&gt;Skills: Tensorflow.&lt;/p&gt;
+&lt;p&gt;Code Repo: &lt;a class=&#34;link&#34; href=&#34;https://github.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Emotion Classifier&lt;/a&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h3 id=&#34;image-rendering-engine-&#34;&gt;Image Rendering Engine 📷&lt;/h3&gt;
+&lt;p&gt;Summary: Image Rendering Engine implemented in C++ based on SPPM algorithm.&lt;/p&gt;
+&lt;p&gt;Semester: Spring 2021.&lt;/p&gt;
+&lt;p&gt;Skills: C++, SMMP, Parallel Development.&lt;/p&gt;
+&lt;p&gt;Code Repo: &lt;a class=&#34;link&#34; href=&#34;https://github.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Image Rendering Engine&lt;/a&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h3 id=&#34;naive-database-&#34;&gt;Naive-Database 📚&lt;/h3&gt;
+&lt;p&gt;Summary: A toy DBMS(Database Manage System) implemented in rust from scratch, supports CURD operation and other database precations.&lt;/p&gt;
+&lt;p&gt;Semester: Fall 2021.&lt;/p&gt;
+&lt;p&gt;Skills: Rust.&lt;/p&gt;
+&lt;p&gt;Code Repo: &lt;a class=&#34;link&#34; href=&#34;https://github.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Naive-Database&lt;/a&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h3 id=&#34;mini-decaf&#34;&gt;Mini-Decaf&lt;/h3&gt;
+&lt;p&gt;Summary: PA of Compilation principle, implemented in python, used for mini-decaf(subset of C Language).&lt;/p&gt;
+&lt;p&gt;Semester: Fall 2021.&lt;/p&gt;
+&lt;p&gt;Skills: Python, AST, Compilation principle.&lt;/p&gt;
+&lt;p&gt;Code Repo: &lt;a class=&#34;link&#34; href=&#34;https://github.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Mini-Decaf&lt;/a&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h3 id=&#34;rcore&#34;&gt;rCore&lt;/h3&gt;
+&lt;p&gt;Summary: PA of OS course, implement an operating system using rust.&lt;/p&gt;
+&lt;p&gt;Semester: Fall 2021.&lt;/p&gt;
+&lt;p&gt;Skills: Rust.&lt;/p&gt;
+&lt;p&gt;Code Repo: &lt;a class=&#34;link&#34; href=&#34;https://github.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;rCore&lt;/a&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h3 id=&#34;cpu&#34;&gt;CPU&lt;/h3&gt;
+&lt;p&gt;Summary: Seen as the hardest course project in our department. Design a five-stage pipeline CPU using verilog, also add forwarding technology and support hardware-IO like vga/flash.&lt;/p&gt;
+&lt;p&gt;Semester: Fall 2021.&lt;/p&gt;
+&lt;p&gt;Skills: Verilog, pipeline CPU, hardware design.&lt;/p&gt;
+&lt;p&gt;Code Repo: &lt;a class=&#34;link&#34; href=&#34;https://github.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CPU&lt;/a&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;personal-projects&#34;&gt;Personal Projects&lt;/h2&gt;
+&lt;h3 id=&#34;nucearth-&#34;&gt;NucEarth 🌍&lt;/h3&gt;
+&lt;p&gt;Summary: Inspired by &lt;a class=&#34;link&#34; href=&#34;https://github.com/cambecc/earth&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;earth&lt;/a&gt;, which visualize weather condition on a globe. NucEarch is for visualizing pollution infected by nuclear leak.&lt;/p&gt;
+&lt;p&gt;Skills: javascript.&lt;/p&gt;
+&lt;p&gt;Demo Website: &lt;a class=&#34;link&#34; href=&#34;https://nuc.lo-li.co/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;NucEarth&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Code Repo: Private.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h3 id=&#34;robot-detecting-and-social-network-analysis-&#34;&gt;Robot Detecting and Social Network Analysis 🤖️&lt;/h3&gt;
+&lt;p&gt;Summary: A master thesis work to detect robot on social media and social network analysis. I took part in the data crawling and processing, robot detecting.&lt;/p&gt;
+&lt;p&gt;Skills: python.&lt;/p&gt;
+&lt;p&gt;Code Repo: Private.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h3 id=&#34;gongpincha-&#34;&gt;GongPinCha 🧼&lt;/h3&gt;
+&lt;p&gt;Summary: A form filling Applets cooperates with an official department for data collecting.&lt;/p&gt;
+&lt;p&gt;Skills: React-Native, Wechat Mini Program.&lt;/p&gt;
+&lt;p&gt;Demo: 工品查 WeChat Mini Program.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>https://nldxtd.github.io/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://nldxtd.github.io/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>
