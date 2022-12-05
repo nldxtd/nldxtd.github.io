@@ -39,7 +39,7 @@ Semester: Summer 2020.
 
 Skills: Qt, C++.
 
-Code Repo: [Snake](https://github.com/)
+Code Repo: [Snake](https://github.com/nldxtd/wchSnake)
 
 <br>
 
@@ -51,7 +51,7 @@ Semester: Summer 2020.
 
 Skills: Qt, Qt Socket, C++.
 
-Code Repo: [Dou Dizhu](https://github.com/)
+Code Repo: Private.
 
 <br>
 
@@ -75,7 +75,7 @@ Semester: Spring 2021.
 
 Skills: C++, Network Protocol.
 
-Code Repo: [Router-Lab](https://github.com/)
+Code Repo: Private.
 
 <br>
 
@@ -87,7 +87,7 @@ Semester: Spring 2021.
 
 Skills: Python, Markov Chain.
 
-Code Repo: [Py-PinYin](https://github.com/)
+Code Repo: [Py-PinYin](https://github.com/nldxtd/pypy)
 
 <br>
 
@@ -99,7 +99,7 @@ Semester: Spring 2021.
 
 Skills: C++, MCTS.
 
-Code Repo: [FourChess](https://github.com/)
+Code Repo: [FourChess](https://github.com/nldxtd/Connect-Four)
 
 <br>
 
@@ -111,7 +111,7 @@ Semester: Spring 2021.
 
 Skills: Tensorflow.
 
-Code Repo: [Emotion Classifier](https://github.com/)
+Code Repo: [Emotion Classifier](https://github.com/nldxtd/Emotion-Classifier)
 
 <br>
 
@@ -123,7 +123,7 @@ Semester: Spring 2021.
 
 Skills: C++, SMMP, Parallel Development.
 
-Code Repo: [Image Rendering Engine](https://github.com/)
+Code Repo: [Image Rendering Engine](https://github.com/nldxtd/Image-Render)
 
 <br>
 
@@ -135,7 +135,7 @@ Semester: Fall 2021.
 
 Skills: Rust.
 
-Code Repo: [Naive-Database](https://github.com/)
+Code Repo: [Naive-Database](https://github.com/nldxtd/naive-db)
 
 <br>
 
@@ -147,7 +147,7 @@ Semester: Fall 2021.
 
 Skills: Python, AST, Compilation principle.
 
-Code Repo: [Mini-Decaf](https://github.com/)
+Code Repo: [Mini-Decaf](https://decaf-lang.github.io/minidecaf-tutorial/)
 
 <br>
 
@@ -159,7 +159,7 @@ Semester: Fall 2021.
 
 Skills: Rust.
 
-Code Repo: [rCore](https://github.com/)
+Code Repo: [rCore](https://github.com/rcore-os/rCore)
 
 <br>
 
@@ -171,7 +171,7 @@ Semester: Fall 2021.
 
 Skills: Verilog, pipeline CPU, hardware design.
 
-Code Repo: [CPU](https://github.com/)
+Code Repo: Private.
 
 <br>
 
