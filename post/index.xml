@@ -6,7 +6,21 @@
         <description>Recent content in Posts on NLDXTD</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://nldxtd.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 13 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://nldxtd.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Process, thread and routine in OS</title>
+        <link>https://nldxtd.github.io/p/process-thread-and-routine-in-os/</link>
+        <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://nldxtd.github.io/p/process-thread-and-routine-in-os/</guid>
+        <description>&lt;p&gt;The process/thread/routines set is made the foundation of computer task schedueling. Let&amp;rsquo;s go through
+these basic knowledge to deepen our understanding of computer.&lt;/p&gt;
+&lt;h2 id=&#34;the-usual-workflow-of-operating-system&#34;&gt;The usual workflow of operating system&lt;/h2&gt;
+&lt;p&gt;In arch classes, we know the CPU is just an instruction processing unit, it reads instruction from the bootstraping code and start the operating system. The operating system is responsible for the schedule of different tasks. The operating system act as a control panel between the user software and hardware, enable the ability of reading from memory/devices and writing to screen, etc. OS scheduled different tasks, tell CPU where to get next instruction us PC reg, thus make up of the computer we are using today.&lt;/p&gt;
+&lt;h2 id=&#34;introduction-to-task-set&#34;&gt;Introduction to task set&lt;/h2&gt;
+&lt;p&gt;In operating system, there are several kinds of tasks. The process, the thread, and the routine.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Markdown Syntax Guide</title>
         <link>https://nldxtd.github.io/p/markdown-syntax-guide/</link>
         <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
