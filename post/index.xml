@@ -6,18 +6,128 @@
         <description>Recent content in Posts on NLDXTD</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 13 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://nldxtd.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Process, thread and routine in OS</title>
-        <link>https://nldxtd.github.io/p/process-thread-and-routine-in-os/</link>
+        <lastBuildDate>Thu, 15 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://nldxtd.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Backend service intern, at MicroSoft</title>
+        <link>https://nldxtd.github.io/p/backend-service-intern-at-microsoft/</link>
+        <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://nldxtd.github.io/p/backend-service-intern-at-microsoft/</guid>
+        <description>&lt;p&gt;As my last internship which marks the end of my undergraduate study, I was given the chance of involving in the rate-limiter service at Microsoft, China.&lt;/p&gt;
+&lt;p&gt;Generally speaking, it&amp;rsquo;s a pleasant journey along with those teammates work together, using my knowledge learned in class and also to validate my cs foundation, especially in the field of Operating-System and backend service field which I currently plan to dive into.&lt;/p&gt;
+&lt;h2 id=&#34;problems&#34;&gt;Problems&lt;/h2&gt;
+&lt;p&gt;Rate limiter service is part of the ai-inferencing service which we call it a micro-service, customs use our service to do batch inferencing. But resources like GPUs are limited from the inferencing engine, so before inferencing can really take place, there must be a rule to define how many inference unit a single batch request can take. So the problem we are facing is:&lt;/p&gt;
+&lt;p&gt;The basic server side&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The ability to handle concurrency request
+&lt;ul&gt;
+&lt;li&gt;The system architechture&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Set up as part of the inference micro-service
+The additional design&lt;/li&gt;
+&lt;li&gt;How to store and calculate the used quota&lt;/li&gt;
+&lt;li&gt;Enable the share between different tenant of same group and fairness issue.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;practice&#34;&gt;Practice&lt;/h2&gt;
+&lt;h3 id=&#34;system-architechture-design-multi-replica-deployment&#34;&gt;System Architechture Design: Multi-Replica Deployment&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;2 replica per region&lt;/li&gt;
+&lt;li&gt;30 pods per replica&lt;/li&gt;
+&lt;li&gt;7 shards of redis, tenants from the same group will be projected to the same shard&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We use ASP.NET core as the backend framework and redis as cache. And there are 60 instances in total to serve traffic per region. The CI/CD set is provided by Azure platform which can take a long time to deploy honestly. Everytime we have an update to the current repo, we use a rolling update strategy, which is 3 by 3 in the 60 instances, whenever there is a failure discovered through the readiness api, we roll back to the last version.&lt;/p&gt;
+&lt;p&gt;Problem is discovered that sometimes when traffic is high, the request is stuck at a point in getting lock of a required service (like some kind of authorization). This is weird and we suspected it&amp;rsquo;s due to the framework itself, dead lock probably. But we didn&amp;rsquo;t get into this problem that far because this problem happened occasionally.&lt;/p&gt;
+&lt;h3 id=&#34;microservice-frontdoor-to-the-inference-engine&#34;&gt;Microservice, frontdoor to the inference engine&lt;/h3&gt;
+</description>
+        </item>
+        <item>
+        <title>My failed tech interviews</title>
+        <link>https://nldxtd.github.io/p/my-failed-tech-interviews/</link>
+        <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://nldxtd.github.io/p/my-failed-tech-interviews/</guid>
+        <description>&lt;p&gt;Even though I am planning to continue my master&amp;rsquo;s study in America, I do have few interviews in my undergraduate. Many of them are not so successful according to various reasons.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Record of my self-retained questions in CS areas</title>
+        <link>https://nldxtd.github.io/p/record-of-my-self-retained-questions-in-cs-areas/</link>
         <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://nldxtd.github.io/p/process-thread-and-routine-in-os/</guid>
-        <description>&lt;p&gt;The process/thread/routines set is made the foundation of computer task schedueling. Let&amp;rsquo;s go through
-these basic knowledge to deepen our understanding of computer.&lt;/p&gt;
-&lt;h2 id=&#34;the-usual-workflow-of-operating-system&#34;&gt;The usual workflow of operating system&lt;/h2&gt;
-&lt;p&gt;In arch classes, we know the CPU is just an instruction processing unit, it reads instruction from the bootstraping code and start the operating system. The operating system is responsible for the schedule of different tasks. The operating system act as a control panel between the user software and hardware, enable the ability of reading from memory/devices and writing to screen, etc. OS scheduled different tasks, tell CPU where to get next instruction us PC reg, thus make up of the computer we are using today.&lt;/p&gt;
-&lt;h2 id=&#34;introduction-to-task-set&#34;&gt;Introduction to task set&lt;/h2&gt;
-&lt;p&gt;In operating system, there are several kinds of tasks. The process, the thread, and the routine.&lt;/p&gt;
+        <guid>https://nldxtd.github.io/p/record-of-my-self-retained-questions-in-cs-areas/</guid>
+        <description>&lt;p&gt;I alaways came across questions in computer science areas like programming languages, computer network, operating system. In this article I will record some of the basic questions I encountered over the years, if the question is complecated I will consider making it into a blog&amp;hellip;&lt;/p&gt;
+&lt;h1 id=&#34;programming-languages-and-compiler&#34;&gt;Programming languages and compiler&lt;/h1&gt;
+&lt;h1 id=&#34;computer-network&#34;&gt;Computer network&lt;/h1&gt;
+&lt;p&gt;Computer network, connect our isolated computer into Internet which now make up our world. Generally speaking, coumputer network is about how computer send message to and recieve back from other computer. A computer&amp;rsquo;s network stack is made of 7 layers, each plays its role. A network path between 2 computers is called a route, which can pass netword hardware like router and exchanger.&lt;/p&gt;
+&lt;h1 id=&#34;operating-system&#34;&gt;Operating system&lt;/h1&gt;
+&lt;p&gt;Operating system, aka OS, performs as the connection between user software and underlying hardware, it provide system apis to be called by the user program so the computer can behave in our will. There are several topics to be involved in this region, such as the bacis operating unit, process communication, system call(exceptions/faults/interrupts), memory management, file system, concurrency and sychronization&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;whats-the-connection-and-difference-between-process-and-thread&#34;&gt;What&amp;rsquo;s the connection and difference between process and thread?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Process&lt;/strong&gt;: A actual running program instance in operating system, it contains all the resources needed to run a program, such as memory, file description, environment variables.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Thread&lt;/strong&gt;: A minimal unit of execution within a process,i t represents a sequence of instructions that can be executed by the CPU.&lt;/p&gt;
+&lt;p&gt;So each process has at least one thread which is called the main thread normally, the operating system actually schedules on thread to premote the execution of a program.&lt;/p&gt;
+&lt;h3 id=&#34;differences-between-process-and-thread&#34;&gt;Differences Between Process and Thread&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;Aspect&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Process&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Thread&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Definition&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;An independent program running in its own memory space.&lt;/td&gt;
+&lt;td&gt;A smaller, lightweight unit of execution within a process.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Memory Space&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Has its own separate memory space.&lt;/td&gt;
+&lt;td&gt;Shares the memory space of its parent process.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Resource Allocation&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;More resource-intensive (e.g., memory, file descriptors).&lt;/td&gt;
+&lt;td&gt;Less resource-intensive; shares resources with other threads.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Isolation&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Processes are isolated from each other.&lt;/td&gt;
+&lt;td&gt;Threads within a process are not isolated; they can affect each other.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Communication&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Inter-process communication (IPC) is required for communication between processes (e.g., pipes, sockets).&lt;/td&gt;
+&lt;td&gt;Threads can directly communicate with each other by reading/writing shared memory.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Context Switching&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;More expensive due to the need to switch memory space and resources.&lt;/td&gt;
+&lt;td&gt;Less expensive since threads share the same memory space.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Creation Overhead&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Higher overhead in terms of time and system resources.&lt;/td&gt;
+&lt;td&gt;Lower overhead, making thread creation faster and more efficient.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Execution&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Each process runs independently and can run in parallel on multiple CPUs.&lt;/td&gt;
+&lt;td&gt;Threads can run in parallel, especially on multi-core systems, within the same process.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Crash Impact&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;If a process crashes, it doesn’t affect other processes.&lt;/td&gt;
+&lt;td&gt;If a thread crashes, it can potentially crash the entire process.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Scheduling&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;The operating system schedules processes independently.&lt;/td&gt;
+&lt;td&gt;The operating system schedules threads, often within the context of their parent process.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;computer-architechture&#34;&gt;Computer Architechture&lt;/h1&gt;
 </description>
         </item>
         <item>
